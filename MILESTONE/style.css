@@ -1,0 +1,95 @@
+/* style.css */
+
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile picture styling */
+.profile-picture {
+    margin-bottom: 80px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4a90e2;
+}
+
+/* Right section */
+.right-section {
+    text-align: left;
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #4a90e2;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+p, li {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Personal info */
+#personal_info p {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+#personal_info a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+#personal_info a:hover {
+    text-decoration: underline;
+}
+
+/* Skills section */
+#skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#skills li {
+    margin-bottom: 5px;
+}
+
+/* Work experience */
+#work_experience p {
+    font-size: 1em;
+    color: #555;
+}
+
+
